@@ -17,7 +17,7 @@ Multiple Web Server replicas, preferably in different machines, should be deploy
 
 ## The assignment
 
-* ***You are required to setup and conﬁgure ELB, NGNIX, Kubernetes Cluster, and proper CI/CD!** * *
+***You are required to setup and conﬁgure ELB, NGNIX, Kubernetes Cluster, and proper CI/CD!
 
 You're free to choose which CI/CD platform to use, we suggest GitLab with GitLab runner. You're free to come up with your own ﬂow for the CI/CD. There are a couple of requirements though:
 
