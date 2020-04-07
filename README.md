@@ -1,6 +1,8 @@
 ![](lean-apps_original.png)                  
-
 # DevOps Assignment
+
+## Introduction
+
 This repository holds the The Lean Apps DevOps assignment. In this project you will ﬁnd a folder that holds a microservice, supplied with a Dockerﬁle.
 
 The following picture depicts the service and shows the corresponding dataﬂow:
@@ -14,7 +16,7 @@ Multiple Web Server replicas, preferably in different machines, should be deploy
 
 ## The assignment
 
-You are required to setup and conﬁgure ELB, NGNIX, Kubernetes Cluster, and proper CI/CD!
+**You are required to setup and conﬁgure ELB, NGNIX, Kubernetes Cluster, and proper CI/CD!**
 
 You're free to choose which CI/CD platform to use, we suggest GitLab with GitLab runner. You're free to come up with your own ﬂow for the CI/CD. There are a couple of requirements though:
 
