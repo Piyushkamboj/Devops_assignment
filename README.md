@@ -7,6 +7,7 @@ This repository holds the The Lean Apps DevOps assignment. In this project you w
 
 The following picture depicts the service and shows the corresponding dataﬂow:
 
+
 ![](framework.png)
 
 As can be seen, the connecting web browsers will connect over an AWS Elastic Load Balancer (ELB) which will point to an NGINX ingress router ([https://github.com/kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx)) for Kubernetes.
@@ -16,7 +17,7 @@ Multiple Web Server replicas, preferably in different machines, should be deploy
 
 ## The assignment
 
-**You are required to setup and conﬁgure ELB, NGNIX, Kubernetes Cluster, and proper CI/CD!**
+* ***You are required to setup and conﬁgure ELB, NGNIX, Kubernetes Cluster, and proper CI/CD!** * *
 
 You're free to choose which CI/CD platform to use, we suggest GitLab with GitLab runner. You're free to come up with your own ﬂow for the CI/CD. There are a couple of requirements though:
 
