@@ -23,7 +23,7 @@ You're free to choose which CI/CD platform to use, we suggest GitLab with GitLab
 
 - Deploying an app to "production" should involve a manual action (big red button, slack message etc.)
 - Developers should be able to rollback a deployment.
-- The CI/CD pipeline should register the web-server to the ingress controller to be available externally with a URL [something.somedomain.com](https://www.theleanapps.com/)
+- The CI/CD pipeline should register the web-server to the ingress controller to be available externally with a URL [(something.somedomain.com)](https://www.theleanapps.com/)
 - Multiple feature branches should be able to live alongside each other in the cluster (and be accessible via different URLs).
 
 ### Pointers
