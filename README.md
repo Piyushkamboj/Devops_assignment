@@ -1,5 +1,4 @@
-# DevOps Assignment
-![](lean-apps_original.png)
+![](lean-apps_original.png)                  # DevOps Assignment
 
 This repository holds the The Lean Apps DevOps assignment. In this project you will ﬁnd a folder that holds a microservice, supplied with a Dockerﬁle.
 
