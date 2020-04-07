@@ -14,13 +14,13 @@ Multiple Web Server replicas, preferably in different machines, should be deploy
 
 ## The assignment
 
-You are required to setup and conﬁgure ELB, NGNIX, Kubernetes Cluster, and proper CI/CD!
+###You are required to setup and conﬁgure ELB, NGNIX, Kubernetes Cluster, and proper CI/CD!
 
 You're free to choose which CI/CD platform to use, we suggest GitLab with GitLab runner. You're free to come up with your own ﬂow for the CI/CD. There are a couple of requirements though:
 
 - Deploying an app to "production" should involve a manual action (big red button, slack message etc.)
 - Developers should be able to rollback a deployment.
-- The CI/CD pipeline should register the web-server to the ingress controller to be available externally with a URL (something.something.com).
+- The CI/CD pipeline should register the web-server to the ingress controller to be available externally with a URL (something.somedomain.com).
 - Multiple feature branches should be able to live alongside each other in the cluster (and be accessible via different URLs).
 
 ### Pointers
