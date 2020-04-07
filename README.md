@@ -16,10 +16,10 @@ You are required to setup and conﬁgure ELB, NGNIX, Kubernetes Cluster, and pro
 
 You're free to choose which CI/CD plaZorm to use, we suggest GitLab with GitLab runner. You're free to come up with your own ﬂow for the CI/CD. There are a couple of requirements though:
 
-- [ ] Deploying an app to "production" should involve a manual action (big red button, slack message etc.)
-- [ ] Developers should be able to rollback a deployment.
-- [ ] The CI/CD pipeline should register the web-server to the ingress controller to be available externally with a URL (something.trials.viriciti.com).
-- [ ] Multiple feature branches should be able to live alongside each other in the cluster (and be accessible via different URLs).
+- Deploying an app to "production" should involve a manual action (big red button, slack message etc.)
+- Developers should be able to rollback a deployment.
+- The CI/CD pipeline should register the web-server to the ingress controller to be available externally with a URL (something.trials.viriciti.com).
+- Multiple feature branches should be able to live alongside each other in the cluster (and be accessible via different URLs).
 
 ### Pointers
 - You can use Let's Encrypt to create the necessary certificates (https://letsencrypt.org/)
