@@ -1,10 +1,10 @@
 # DevOps Assignment
-![](https://bitbucket.org/tla_team/devops_assignment/src/master/lean-apps_original.png)
+![](lean-apps_original.png)
 
 This repository holds the The Lean Apps DevOps assignment. In this project you will ﬁnd a folder that holds a microservice, supplied with a Dockerﬁle.
 
 The following picture depicts the service and shows the corresponding dataﬂow:
-![](https://github.com/viriciti/devops-assignment/raw/master/framework.png)
+![](framework.png)
 
 As can be seen, the connecting web browsers will connect over an AWS Elastic Load Balancer (ELB) which will point to an NGINX ingress router ([https://github.com/kubernetes/ingress-nginx](https://github.com/kubernetes/ingress-nginx)) for Kubernetes.
 
